@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/bbc"
+            android:title="@string/bbc"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/aljaz"
+            android:title="@string/aljaz"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/cnn"
+            android:title="@string/cnn"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/foxnewsFragment"
+            android:icon="@drawable/fox"
+            android:title="@string/fox_news"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/skyNewsFragment"
+            android:icon="@drawable/sky"
+            android:title="@string/sky_news"
+            android:menuCategory="secondary"/>
+
+
+
+        <!-- </group> -->
+
+
+    <item android:title="Local News Paper"
+        android:menuCategory="secondary"
+        >
+        <menu>
+
+            <item
+                android:id="@+id/prothomaloFragment"
+                android:menuCategory="secondary"
+                android:icon="@drawable/ps"
+                android:title="@string/prothom" />
+
+            <item
+                android:id="@+id/dt"
+                android:menuCategory="secondary"
+                android:icon="@drawable/ds"
+                android:title="@string/the_daily_star" />
+
+
+
+        </menu>
+
+    </item>
+</group>
+
+    <item android:title="UpComing"
+        android:menuCategory="secondary"
+        >
+        <menu>
+
+            <item
+                android:id="@+id/ny"
+                android:menuCategory="secondary"
+                android:icon="@drawable/newtime"
+                android:title="@string/new_york_times" />
+
+            <item
+                android:id="@+id/developerFragment"
+                android:menuCategory="secondary"
+                android:icon="@drawable/dev"
+                android:title="@string/developer_contact" />
+
+
+        </menu>
+
+    </item>
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.news.ui.bbc.HomeFragment"
+        android:label="BBC"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.news.ui.gallery.GalleryFragment"
+        android:label="Al Jazeera"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.news.ui.slideshow.SlideshowFragment"
+        android:label="CNN"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/foxnewsFragment"
+        android:name="com.example.news.foxnewsFragment"
+        android:label="FOX News"
+        tools:layout="@layout/fragment_foxnews" />
+    <fragment
+        android:id="@+id/skyNewsFragment"
+        android:name="com.example.news.skynewsFragment"
+        android:label="SKY News"
+        tools:layout="@layout/fragment_skynews" />
+
+    <fragment
+        android:id="@+id/prothomaloFragment"
+        android:name="com.example.news.prothomaloFragment"
+        android:label="প্রথম আলো"
+        tools:layout="@layout/fragment_prothomalo" />
+
+    <fragment
+        android:id="@+id/developerFragment"
+        android:name="com.example.news.developerFragment"
+        android:label="Developer"
+        tools:layout="@layout/fragment_developer" />
+
+
+
+</navigation>
